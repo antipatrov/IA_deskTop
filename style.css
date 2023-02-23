@@ -28,10 +28,12 @@
 }
 
 .header {
+    display: flex;
+    justify-content: space-between;
     position: absolute;
     height: 40px;
     width: 1181px;
-    border: 1px solid #bbb;
+    /* border: 1px solid #bbb; */
     display: flex;
     align-items: center;
 }
@@ -41,10 +43,34 @@
     align-items: center;
 }
 
+.name-h {
+    margin-left: 13px;
+}
+
 .menu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-left: 96px;
     width: 352px;
     height: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* text / secondary */
+    color: #8794BA;
+}
+
+.signup-h {
+    width: 161px;
+    height: 39px;
+    border-radius: 68px;
+    border: 1px solid #bbb;
+    background: #172755;
+    color: rgba(135, 148, 186, 1);
 }
 
 .text-block {
